@@ -192,17 +192,11 @@ if st.button(
 
                 st.divider()
 
-                # -------------------------
-                # Topic
-                # -------------------------
 
                 st.header(
                     f"📚 {response.topic}"
                 )
 
-                # -------------------------
-                # What is it?
-                # -------------------------
 
                 st.subheader(
                     "🤔 What is it?"
@@ -212,9 +206,6 @@ if st.button(
                     response.what_is_it
                 )
 
-                # -------------------------
-                # How does it work?
-                # -------------------------
 
                 st.subheader(
                     "🧠 How does it work?"
@@ -224,10 +215,6 @@ if st.button(
                     response.how_it_works
                 )
 
-                # -------------------------
-                # Real-world example
-                # -------------------------
-
                 st.subheader(
                     "🌎 Real-world example"
                 )
@@ -236,9 +223,6 @@ if st.button(
                     response.real_world_example
                 )
 
-                # -------------------------
-                # Analogy
-                # -------------------------
 
                 st.subheader(
                     "💡 Simple analogy"
@@ -248,9 +232,6 @@ if st.button(
                     response.analogy
                 )
 
-                # -------------------------
-                # Key Points
-                # -------------------------
 
                 st.subheader(
                     "⭐ Key things to remember"
